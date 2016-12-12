@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "tape-watch *.js -w -p tap-spec"
+  },
+  "dependencies": {
+    "tap": "^8.0.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3",
+    "tape-watch": "^2.2.4"
+  }
+}
