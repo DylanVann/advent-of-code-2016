@@ -3,6 +3,7 @@
     "start": "tape-watch *.js -w -p tap-spec"
   },
   "dependencies": {
+    "md5": "^2.2.1",
     "tap": "^8.0.1",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3",
