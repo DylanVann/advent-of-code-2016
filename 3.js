@@ -69,6 +69,7 @@ function countValidTrianglesB(path) {
 
 test('day3 - test b', t => {
   t.equal(countValidTrianglesB('./3_input_test.txt'), 3)
+  t.end()
 })
 
 console.log('Day 3 B - Ans.', countValidTrianglesB('./3_input.txt'))
