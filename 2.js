@@ -9,7 +9,7 @@ function indexOf2D(array, obj) {
   return undefined
 }
 
-test('get start positon', t => {
+test('day2 - get start positon', t => {
   const input = [
     [1, 2, 3],
     [4, 5, 6],
@@ -60,7 +60,7 @@ const keypad = `
 7 8 9
 `
 
-test('test1', t => {
+test('day2 - test1', t => {
   const input = `
   ULL
   RRDDD

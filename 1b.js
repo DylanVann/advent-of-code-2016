@@ -33,7 +33,7 @@ function calculateFirstRevisit(input) {
   return undefined
 }
 
-test('day1b-test1', t => {
+test('day1b - test1', t => {
   const input = 'R8, R4, R4, R8'
   const expected = 4
   t.equal(calculateFirstRevisit(input), expected)

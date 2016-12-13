@@ -24,21 +24,21 @@ function calculateBlocksMoved(input) {
   return Math.abs(totalMove.x) + Math.abs(totalMove.y)
 }
 
-test('day1-test1', t => {
+test('day1 - test1', t => {
   const input = 'R2, L3'
   const expected = 5
   t.equal(calculateBlocksMoved(input), expected)
   t.end()
 })
 
-test('day1-test2', t => {
+test('day1 - test2', t => {
   const input = 'R2, R2, R2'
   const expected = 2
   t.equal(calculateBlocksMoved(input), expected)
   t.end()
 })
 
-test('day1-test3', t => {
+test('day1 - test3', t => {
   const input = 'R5, L5, R5, R3'
   const expected = 12
   t.equal(calculateBlocksMoved(input), expected)
